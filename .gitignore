@@ -1,0 +1,19 @@
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# Berkshelf
+/Berksfile.lock
+/cookbooks/
+/berks-cookbooks/
+
+# Vagrant
+/.vagrant/
+
+# Test Kitchen
+/.kitchen/
+/.kitchen.local.yml
+
+# Chefspec
+/.coverage/
