@@ -12,10 +12,9 @@ provisioner:
 
 platforms:
   - name: ubuntu-14.04
-  - name: centos-7.1
 
 suites:
   - name: default
     run_list:
-      - recipe[core::default]
+      - recipe[core-linux::default]
     attributes:
