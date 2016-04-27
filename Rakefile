@@ -50,4 +50,4 @@ end
 
 task default: ['test', 'integration:vagrant']
 task ci: ['test', 'upload_to_chef']
-task cloud: ['test', 'integration:cloud', 'upload_to_chef']
+task cloud: ['test', 'integration:cloud']
