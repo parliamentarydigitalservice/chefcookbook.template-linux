@@ -16,7 +16,7 @@ platforms:
     image_id: ami-ee2aa59d
     region: eu-west-1
     availability_zone: eu-west-1a
-    flavor_id: t2.micro
+    instance_type: t2.micro
     iam_profile_name: gocdAgent
  
 suites:
