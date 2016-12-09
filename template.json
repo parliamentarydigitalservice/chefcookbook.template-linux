@@ -57,6 +57,12 @@
       "cookbook_paths":      ["./berks-cookbooks"],
       "run_list":           ["core-linux::default"],
       "staging_directory":  "/cookbooks"
+    },
+    {
+      "type":   "shell",
+      "inline": [
+          "rm /home/ubuntu/.ssh/authorized_keys"
+      ]
     }
   ]
 }
