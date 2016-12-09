@@ -17,3 +17,7 @@ bin/*
 
 # Chefspec
 /.coverage/
+
+# Vim swap and temp files
+*.swp
+*~
