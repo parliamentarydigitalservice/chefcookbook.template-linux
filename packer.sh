@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export AWS_REGION=us-east-1
+export AWS_REGION=eu-west-1
 
 ## Obtain the source AMI to use for our Packer build.
 ## ubuntu/images/hvm/ubuntu-trusty-14.04-amd64-server-20160406
